@@ -12,7 +12,7 @@ logging.config.fileConfig(
     pkg_resources.resource_filename("sportpools.resources", "logger.ini"), disable_existing_loggers=False
 )
 LOGGER = logging.getLogger(__name__)
-ROUNDS = ["r64", "r32", "r16", "qf", "sm", "f", "w"]
+ROUNDS = ["r64", "r32", "r16", "qf", "sf", "f", "w"]
 
 
 def main() -> None:
